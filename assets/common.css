@@ -65,3 +65,7 @@ body > a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.container > img{
+  width: 100%;
+}
