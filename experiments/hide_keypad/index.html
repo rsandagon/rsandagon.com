@@ -12,6 +12,7 @@
 
 	      function hideKeyboard() {
 	        document.activeElement.blur();
+	        console.log("hideKeyboard called");
 	      }
 
 	    </script>
@@ -21,9 +22,9 @@
 		<div class="container" style="text-align:center;">
 		  <h1> Hide Keyboard in Mobile (Demo)</h1>
 		 
-		 <form name="input" onsubmit="retun hideKeyboard">
+		 <form name="input">
 			Username: <input type="text" name="user">
-			<input type="submit" value="Submit">
+			<button name="data" type="button" onclick="hideKeyboard()">Click</button>
 		 </form>
 		
 		</div>
